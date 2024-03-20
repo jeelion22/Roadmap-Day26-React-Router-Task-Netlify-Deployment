@@ -1,6 +1,5 @@
 import Card from "./Card";
 
-
 // create a function for Datascience component
 // returns a card component related to datascience course
 
