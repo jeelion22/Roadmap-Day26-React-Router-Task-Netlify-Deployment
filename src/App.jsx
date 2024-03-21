@@ -13,6 +13,7 @@ function App() {
   const [cybersecurityCourse, setCybersecurityCourse] = useState([]);
   const [datascienceCourse, setDataScienceCourse] = useState([]);
   const [fullstackCourse, setFullstackCourse] = useState([]);
+  const [allCourses, setAllCourses] = useState([]);
 
   const courses = [
     {
@@ -205,6 +206,8 @@ function App() {
       (course) => course.category === "fullstack"
     );
 
+    setAllCourses(courses);
+
     setCybersecurityCourse(cybersecurity);
     setDataScienceCourse(datascicence);
     setFullstackCourse(fullstack);
@@ -216,7 +219,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
 
-        <Route path="/all" element={<All courses={courses} />} />
+        <Route path="/all" element={<All allCourses={allCourses} />} />
 
         <Route
           path="/fullstack"
