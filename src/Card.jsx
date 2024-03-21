@@ -9,7 +9,7 @@ function Card({ course }) {
           <img
             width="1500"
             height="1001"
-            src={`src/assets/${course.img}`}
+            src={course.img}
             className="attachment-post-thumbnail size-post-thumbnail wp-post-image img-fluid"
             alt="Best Full Stack Development Project Ideas"
             decoding="async"
@@ -41,7 +41,7 @@ function Card({ course }) {
           <div className="card-views d-flex px-2 py-1 align-items-center bg-white rounded-pill">
             <img
               loading="lazy"
-              src="src/assets/eye.svg"
+              src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.svgrepo.com%2Fsvg%2F12044%2Feye&psig=AOvVaw1G3W7SjGdGCOKEdqse4wGa&ust=1711134067057000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPCluaOFhoUDFQAAAAAdAAAAABAe"
               height="auto"
               width="auto"
               alt="eye-icon"
