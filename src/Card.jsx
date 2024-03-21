@@ -1,4 +1,3 @@
-
 // create a card component and update state of
 // specific elements
 
@@ -10,7 +9,7 @@ function Card({ course }) {
           <img
             width="1500"
             height="1001"
-            src={course.img}
+            src={`src/assets/${course.img}`}
             className="attachment-post-thumbnail size-post-thumbnail wp-post-image img-fluid"
             alt="Best Full Stack Development Project Ideas"
             decoding="async"

@@ -5,11 +5,11 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav className="navbar  navbar-expand-lg bg-body-tertiary  sticky-top  mb-3 bg-primary" >
+    <nav className="navbar  navbar-expand-lg bg-body-tertiary  sticky-top  mb-3 bg-primary">
       <div className="container-fluid">
         <Link to={"/"} class="navbar-brand">
           <img
-            src="https://www.guvi.in/web-build/images/guvi-logo.e8ad68fbd8dc0a5fc2f7c4ffd580c54d.png"
+            src="src/assets/guvi-logo.webp"
             alt="GUVI : Learn to code in your native language"
             width="95px"
           />
@@ -27,11 +27,10 @@ function Navbar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
-
-          <Link to={"/"} className="nav-link active" >
+            <Link to={"/"} className="nav-link active">
               HOME
             </Link>
-            <Link to={"/all"} className="nav-link" >
+            <Link to={"/all"} className="nav-link">
               ALL
             </Link>
 
