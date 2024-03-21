@@ -2,12 +2,12 @@ import "bootstrap/dist/css/bootstrap.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { useState } from "react";
 import { useEffect } from "react";
-import Navbar from "./Navbar";
-import Datascience from "./Datascience";
-import Fullstackdevelopment from "./Fullstackdevelopment";
-import Cybersecurity from "./Cybersecurity";
-import All from "./All";
-import Home from "./Home";
+import Navbar from "./components/Navbar";
+import Datascience from "./components/Datascience";
+import Fullstackdevelopment from "./components/Fullstackdevelopment";
+import Cybersecurity from "./components/Cybersecurity";
+import All from "./components/All";
+import Home from "./components/Home";
 
 function App() {
   const [cybersecurityCourse, setCybersecurityCourse] = useState([]);
