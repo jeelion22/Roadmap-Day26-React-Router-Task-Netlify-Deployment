@@ -5,7 +5,7 @@ function Card({ course }) {
   return (
     <div className="post-card trending-card card-group">
       <div className="card border-0 shadow-sm position-relative">
-        <a href={course.courseurl} className="card-img-top">
+        <a className="card-img-top">
           <img
             width="1500"
             height="1001"
@@ -41,7 +41,7 @@ function Card({ course }) {
           <div className="card-views d-flex px-2 py-1 align-items-center bg-white rounded-pill">
             <img
               loading="lazy"
-              src="https://www.guvi.in/blog/wp-content/themes/guvi-blog/assets/images/icons/eye.svg"
+              src="src/assets/eye.svg"
               height="auto"
               width="auto"
               alt="eye-icon"
