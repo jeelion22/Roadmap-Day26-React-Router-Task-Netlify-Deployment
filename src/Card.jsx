@@ -14,14 +14,14 @@ function Card({ course }) {
             alt="Best Full Stack Development Project Ideas"
             decoding="async"
             sizes="(max-width: 1500px) 100vw, 1500px"
-          />{" "}
+          />
         </a>
         <div className="card-body" id="card-details">
           <a
             className="card-title text-decoration-none text-dark fs-5 fw-semibold"
-            href="https://www.guvi.in/blog/full-stack-development-project-ideas/"
+            
           >
-            {course.name}{" "}
+            {course.name}
           </a>
           <p className="card-author mt-2 mb-0">
             <span id="by">By</span>&nbsp;
