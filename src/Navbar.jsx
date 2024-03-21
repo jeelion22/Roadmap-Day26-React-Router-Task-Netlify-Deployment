@@ -8,11 +8,7 @@ function Navbar() {
     <nav className="navbar  navbar-expand-lg bg-body-tertiary  sticky-top  mb-3 bg-primary">
       <div className="container-fluid">
         <Link to={"/"} class="navbar-brand">
-          <img
-            src="src/assets/guvi-logo.webp"
-            alt="GUVI : Learn to code in your native language"
-            width="95px"
-          />
+          GUVI
         </Link>
         <button
           className="navbar-toggler"
