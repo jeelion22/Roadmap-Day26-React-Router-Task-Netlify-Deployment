@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <nav className="navbar  navbar-expand-lg bg-body-tertiary  sticky-top  mb-3 bg-primary">
       <div className="container-fluid">
-        <Link to={"/"} class="navbar-brand">
+        <Link to={"/"} class="navbar-brand" style={{color: "green", fontWeight: "strong"}}>
           GUVI
         </Link>
         <button
