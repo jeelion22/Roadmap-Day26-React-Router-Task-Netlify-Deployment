@@ -39,13 +39,13 @@ function Card({ course }) {
         </div>
         <div className="position-absolute" id="views-section">
           <div className="card-views d-flex px-2 py-1 align-items-center bg-white rounded-pill">
-            <img
+            {/* <img
               loading="lazy"
               src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.svgrepo.com%2Fsvg%2F12044%2Feye&psig=AOvVaw1G3W7SjGdGCOKEdqse4wGa&ust=1711134067057000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPCluaOFhoUDFQAAAAAdAAAAABAe"
               height="auto"
               width="auto"
               alt="eye-icon"
-            />
+            /> */}
             &nbsp;
             <p className="m-0">{course.view}</p>
           </div>
