@@ -20,11 +20,11 @@ It contains a navigation for with specific elements HOME, ALL, FULLSTACK, DATASC
 
 The below image tell about how the homepage looks like.
 
-![Homepage](img1.png)
-![ALL Courses](img2.png)
-![Fullstack Courses](img3.png)
-![Datascience Courses](img4.png)
-![Cybersecurity Courses](img5.png)
+![Homepage](/src/assets/img1.png)
+![ALL Courses](/src/assets/img2.png)
+![Fullstack Courses](/src/assets/img3.png)
+![Datascience Courses](/src/assets/img4.png)
+![Cybersecurity Courses](/src/assets/img5.png)
 
 ## Installation
 
